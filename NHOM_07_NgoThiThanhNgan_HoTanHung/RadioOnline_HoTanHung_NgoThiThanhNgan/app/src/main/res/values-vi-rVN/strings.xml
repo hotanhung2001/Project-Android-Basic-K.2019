@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RadioOnline</string>
+    <string name="language">NGÔN NGỮ</string>
+    <string name="Vietnam">Tiếng Việt</string>
+    <string name="English">Tiếng Anh</string>
+    <string name="favorite">YÊU THÍCH</string>
+    <string name="channels">DANH SÁCH KÊNH</string>
+    <string name="popular">PHỔ BIẾN</string>
+    <string name="Trung">Tiếng Trung</string>
+    <string name="Phap">Tiếng Pháp</string>
+    <string name="Han">Tiếng Hàn</string>
+    <string name="Nhat">Tiếng Nhật</string>
+</resources>

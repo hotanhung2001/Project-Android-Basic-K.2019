@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_home" android:title="@string/mnu_home" android:icon="@drawable/ic_baseline_home_24"/>
+<!--    <item android:id="@+id/menu_media" android:title="Listen" android:icon="@drawable/ic_baseline_music_note_24"/>-->
+    <item android:id="@+id/menu_channels" android:title="@string/mnu_channel" android:icon="@drawable/ic_baseline_radio_24"/>
+    <item android:id="@+id/menu_favorite" android:title="@string/mnu_favorite" android:icon="@drawable/ic_baseline_favorite_24"/>
+    <item android:id="@+id/menu_language" android:title="@string/mnu_language" android:icon="@drawable/ic_baseline_language_24"/>
+
+</menu>

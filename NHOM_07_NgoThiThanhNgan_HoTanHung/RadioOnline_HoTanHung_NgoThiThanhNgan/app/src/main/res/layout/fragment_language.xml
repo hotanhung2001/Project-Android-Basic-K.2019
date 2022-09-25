@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LanguageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:src="@drawable/hinh_4" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnVie"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#46FFFFFF"
+            android:text="@string/Vietnam"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Button
+            android:id="@+id/btnEng"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:backgroundTint="#46FFFFFF"
+            android:text="@string/English"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/btnVie"
+            app:layout_constraintStart_toStartOf="@+id/btnVie"
+            app:layout_constraintTop_toBottomOf="@+id/btnVie" />
+
+        <Button
+            android:id="@+id/btnChi"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:backgroundTint="#46FFFFFF"
+            android:text="@string/Trung"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/btnVie"
+            app:layout_constraintStart_toStartOf="@+id/btnVie"
+            app:layout_constraintTop_toBottomOf="@+id/btnEng" />
+
+        <Button
+            android:id="@+id/btnKo"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:backgroundTint="#46FFFFFF"
+            android:text="@string/Han"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/btnVie"
+            app:layout_constraintStart_toStartOf="@+id/btnVie"
+            app:layout_constraintTop_toBottomOf="@+id/btnChi" />
+
+        <Button
+            android:id="@+id/btnJa"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:backgroundTint="#46FFFFFF"
+            android:text="@string/Nhat"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/btnVie"
+            app:layout_constraintStart_toStartOf="@+id/btnVie"
+            app:layout_constraintTop_toBottomOf="@+id/btnKo" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:fontFamily="@font/abril_fatface"
+            android:hint="@string/language"
+            android:textColorHint="@color/white"
+            android:textSize="38sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.086" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

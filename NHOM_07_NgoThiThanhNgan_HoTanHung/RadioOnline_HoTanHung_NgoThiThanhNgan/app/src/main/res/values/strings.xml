@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RadioOnline</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="Vietnam">Vietnamese</string>
+    <string name="English">English</string>
+    <string name="Trung">Chinese</string>
+    <string name="Phap">French</string>
+    <string name="Han">Korean</string>
+    <string name="Nhat">Japanese</string>
+
+
+
+    <string name="popular">POPULAR</string>
+    <string name="channels">CHANNELS</string>
+    <string name="favorite">FAVORITE</string>
+    <string name="language">LANGUAGE</string>
+
+    <string name="mnu_home" translatable="false">Home</string>
+    <string name="mnu_channel" translatable="false">Channels</string>
+    <string name="mnu_favorite" translatable="false">Favorite</string>
+    <string name="mnu_language" translatable="false">Language</string>
+
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

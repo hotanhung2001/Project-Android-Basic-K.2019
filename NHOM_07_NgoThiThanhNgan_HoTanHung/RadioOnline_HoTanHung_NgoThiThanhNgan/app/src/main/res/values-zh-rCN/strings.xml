@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RadioOnline</string>
+    <string name="Vietnam">越南语</string>
+    <string name="English">英语</string>
+    <string name="Trung">中国人</string>
+    <string name="Phap">法语</string>
+    <string name="Han">朝鲜语</string>
+    <string name="Nhat">日本人</string>
+    <string name="popular">受欢迎的</string>
+    <string name="channels">渠道</string>
+    <string name="favorite">最喜欢的</string>
+    <string name="language">语</string>
+</resources>
